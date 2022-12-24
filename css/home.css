@@ -14,6 +14,11 @@ body {
 }
 
 @media(max-width: 450px) {
+    html,
+    body {
+        background-color: #1a273c;
+    }
+    
     #app {
         display: none;
     }
