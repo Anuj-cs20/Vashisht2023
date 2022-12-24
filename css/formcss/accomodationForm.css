@@ -1,0 +1,383 @@
+:root {
+  --bg-color: #f8f8f8;
+  --primary-text: #ff007a;
+  --secondary-text: #000;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+form {
+  width: 100%;
+}
+.accomodation_form_section {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+.accomodation_form_subsection h3 {
+  font-size: 2.5rem;
+  color: var(--primary-text);
+}
+
+.accomodation_form_subsection h5 {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--secondary-text);
+}
+
+.accomodation_details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2.5rem 5rem;
+}
+
+.accomodation_details_left {
+  flex: 50%;
+  padding-left: 5rem;
+}
+
+.accomodation_details_right {
+  flex: 50%;
+}
+
+.accomodation_details_left label,
+.accomodation_details_right label {
+  color: var(--secondary-text);
+  font-size: 1.3rem;
+  word-spacing: 1.2;
+  margin-bottom: 1.75rem;
+  display: inline-block;
+  width: 100px;
+}
+
+.accomodation_details_left input,
+.accomodation_details_right input {
+  width: 300px;
+  border-radius: 5px;
+  display: inline;
+}
+
+.check_for_student label {
+  display: inline-block;
+  width: 25px;
+}
+
+.student_check {
+  display: inline-block;
+}
+
+.student_check label {
+  display: inline-block;
+  width: 300px;
+  font-size: 1.5rem;
+}
+
+.check_for_student input {
+  width: 40px;
+}
+
+.check_for_student span {
+  color: var(--secondary-text);
+}
+
+.current_organization label {
+  width: 250px;
+}
+
+.accomodation_details_two {
+  width: 100%;
+  padding: 0rem 10rem;
+}
+
+.accomodation_details_two label {
+  color: var(--secondary-text);
+  padding-right: 5px;
+  font-size: 1.3rem;
+  word-spacing: 1.2;
+  display: inline-block;
+  width: 100px;
+}
+
+.accomodation_details_two input {
+  width: 600px;
+  height: 60px;
+  border-radius: 5px;
+  display: inline;
+}
+
+.date_of_arrival label {
+  padding-top: 1.5rem;
+  width: 180px;
+}
+
+.date_of_arrival input {
+  width: 180px;
+  height: 30px;
+}
+
+.rules_acceptance {
+  margin-top: 40px;
+}
+
+.rules_acceptance input {
+  width: 20px;
+  height: 18px;
+}
+
+.rules_acceptance label {
+  width: 300px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  width: 20%;
+  background-color: var(--primary-text);
+  color: white;
+  padding: 10px 20px;
+  margin: 1rem 37rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (max-width: 1025px) {
+  .accomodation_form_section {
+    margin: 150px 4rem;
+  }
+  .accomodation_details {
+    padding: 2.5rem 3rem;
+  }
+
+  .accomodation_details_left {
+    padding-left: 1.2rem;
+  }
+
+  .accomodation_details_left label,
+  .accomodation_details_right label {
+    font-size: 1.2rem;
+    width: 80px;
+  }
+
+  .accomodation_details_left input,
+  .accomodation_details_right input {
+    width: 280px;
+  }
+
+  .check_for_student label {
+    width: 35px;
+  }
+
+  .student_check label {
+    width: 180px;
+    font-size: 1.2rem;
+  }
+
+  .check_for_student input {
+    width: 20px;
+  }
+
+  .current_organization label {
+    width: 130px;
+    text-align: left;
+  }
+
+  .current_organization input {
+    width: 250px;
+  }
+
+  .accomodation_details_two {
+    padding: 0rem 4rem;
+  }
+
+  input[type="submit"] {
+    margin: 1rem 7rem;
+    margin-left: 24rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .accomodation_form_section {
+    margin: 150px 1rem;
+  }
+  .accomodation_details {
+    padding: 2.5rem 0rem;
+  }
+
+  .accomodation_details_left {
+    padding-left: 0rem;
+  }
+
+  .check_for_student label {
+    width: 45px;
+  }
+
+  .student_check label {
+    width: 170px;
+    font-size: 1.1rem;
+  }
+
+  .check_for_student input {
+    width: 20px;
+  }
+
+  .current_organization label {
+    width: 110px;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .current_organization input {
+    width: 250px;
+  }
+
+  .accomodation_details_two {
+    padding: 0rem;
+  }
+
+  input[type="submit"] {
+    margin-left: 18rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .accomodation_form_section {
+    width: 100%;
+  }
+  .accomodation_form_subsection h3 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: var(--primary-text);
+  }
+  .accomodation_details {
+    padding: 2.5rem 0rem;
+    flex-direction: column;
+  }
+
+  .current_organization label {
+    width: 110px;
+    font-size: 1rem;
+  }
+
+  .accomodation_details_two {
+    margin-top: -2rem;
+  }
+  .accomodation_details_two label {
+    font-size: 1.2rem;
+    word-spacing: 1.2;
+    display: inline-block;
+    width: 80px;
+  }
+
+  .accomodation_details_two input {
+    width: 200px;
+    height: 40px;
+  }
+
+  .date_of_arrival label {
+    font-size: 1rem;
+    width: 150px;
+  }
+
+  .date_of_arrival input {
+    width: 150px;
+  }
+
+  .rules_acceptance input {
+    width: 20px;
+    height: 18px;
+  }
+
+  .rules_acceptance label {
+    padding-left: 6px;
+    width: 300px;
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    width: 30%;
+  }
+
+  /* .address_block input{
+    width: 150px;
+  } */
+  input[type="submit"] {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .accomodation_form_subsection h3 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .accomodation_details {
+    padding: 2.5rem 0.5rem;
+  }
+  .accomodation_details_left label,
+  .accomodation_details_right label {
+    width: 75px;
+  }
+
+  .check_for_student label {
+    font-size: 0.9rem;
+    width: 22px;
+  }
+
+  .student_check label {
+    width: 160px;
+    font-size: 1rem;
+  }
+  .current_organization label {
+    width: 100px;
+    font-size: 0.9rem;
+  }
+
+  .accomodation_details_two {
+    margin-top: -2rem;
+    padding: 0rem 0.5rem;
+  }
+  .accomodation_details_two label {
+    font-size: 1.2rem;
+    word-spacing: 1.2;
+    display: inline-block;
+    width: 80px;
+  }
+
+  .accomodation_details_two input {
+    width: 300px;
+    height: 60px;
+  }
+
+  .date_of_arrival {
+    margin-top: 1.5rem;
+  }
+  .date_of_arrival label {
+    font-size: 1rem;
+    width: 130px;
+  }
+  .date_of_arrival input {
+    width: 140px;
+    height: 30px;
+  }
+  .rules_acceptance input {
+    width: 20px;
+    height: 18px;
+  }
+
+  .rules_acceptance label {
+    padding-left: 6px;
+    width: 300px;
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    width: 30%;
+  }
+}
