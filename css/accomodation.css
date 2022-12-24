@@ -131,3 +131,24 @@ body::-webkit-scrollbar-thumb {
 .qu{
     width: 100%;
 }
+
+.regi-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.regi-btn {
+    color: white;
+    background-color: #FF007A;
+    border: 1px solid #FF007A;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.regi-btn:hover {
+    color: black;
+    background-color: #FFF;
+    transform: scale(1.1);
+    transition: all ease .5s;
+}
