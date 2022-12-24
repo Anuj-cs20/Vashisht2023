@@ -29,9 +29,40 @@ html,
     font-size: var(--fontSize);
 }
 
-/* #app canvas {
+#app canvas {
     display: block;
     position: fixed;
     z-index: -1;
     top: 0;
-} */
+}
+
+#app-1 {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a273c;
+}
+
+#app-1 {
+    overflow: hidden;
+    touch-action: pan-up;
+    color: #FF007A;
+    text-align: center;
+    text-shadow: 0 0 5px #FF007A, 0 0 50px #000, 0 0 50px #000;
+}
+
+#app-1 .event img {
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#app-1 .event {
+    --fontSize: 60px;
+    --lineHeight: 80px;
+    width: auto;
+    height: calc(4 * var(--lineHeight));
+    line-height: var(--lineHeight);
+    margin: calc(35vh - var(--lineHeight)) auto 0;
+    font-size: var(--fontSize);
+}
+
