@@ -231,9 +231,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media(max-width: 768px) {
-    .vashist_about_intro_description span{
-        margin: 0;
-        display: inline;
+    .vashist_about_intro_description span {
+      display: inline;
+      margin: 0;
     }
 }
 
