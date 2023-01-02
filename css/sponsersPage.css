@@ -50,11 +50,10 @@ body::-webkit-scrollbar-thumb {
 
 .about-spon .num {
     display: inline-block;
-    margin: 20px;
+    margin: auto 15px;
     width: 40px;
     height: 40px;
     padding: 0px 15px;
-    margin-top: 35px;
     padding-top: 5px;
     font-size: larger;
     border: 2px solid #FF007A;
@@ -88,18 +87,25 @@ body::-webkit-scrollbar-thumb {
     transition: all ease .5s;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 1023px) {
     .about-spon {
         flex-wrap: wrap;
-        border-radius: 10px;
         margin: 30px 40px;
-    }
-
-    .about-spon .num {
-        margin-left: 100px;
+        text-align: center;
+        align-content: center;
+        justify-content: space-around;
     }
 
     .spon-btns {
         flex-wrap: wrap;
     }
+}
+
+.about-spon div {
+    padding: 15px 0px;
+}
+
+.inst-1{
+    margin: 10px;
+    padding: 0px;
 }
