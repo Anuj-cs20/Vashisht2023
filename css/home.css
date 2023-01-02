@@ -52,6 +52,18 @@ body {
     padding-top: 200px;
 }
 
+@media(max-width: 375px) {
+    .inst {
+        padding-top: 90px;
+    }
+}
+
+@media(max-width: 768px) {
+    .inst {
+        padding-top: 90px;
+    }
+}
+
 .inst .head-1 {
     display: inline-block;
     font-size: 50px;
@@ -214,6 +226,12 @@ body {
 
 .spon {
     flex-wrap: nowrap;
+}
+
+@media(max-width: 375px) {
+    .inst-1 .spon{
+        padding: 0px 40px;
+    }
 }
 
 .box {
