@@ -104,7 +104,6 @@ body::-webkit-scrollbar-thumb {
 
 .vashist_about_intro_description span {
   display: inline-block;
-  text-align: left;
 }
 
 .vashist_about_intro_description span:nth-of-type(2) {
@@ -220,7 +219,22 @@ body::-webkit-scrollbar-thumb {
     width: 350px;
     height: 350px;
     margin-top: 80px;
+  }
 }
+
+@media(max-width: 1024px) {
+    .vashist_about_intro_description {
+        font-size: 1rem;
+        margin: 2rem 0 0;
+        padding: 0rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .vashist_about_intro_description p{
+        margin: 0;
+        display: inline;
+    }
 }
 
 
