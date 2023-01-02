@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .iiit img {
-  width: 500px;
+  width: 400px;
   height: 400px;
   margin-top: 80px;
 }
@@ -215,6 +215,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100%;
 }
 
+@media (max-width: 375px) {
+  .iiit img {
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+}
+}
+
+
 @media (max-width: 1024px) {
   .vashist_about_intro_description {
     font-size: 1rem;
@@ -230,7 +239,6 @@ body::-webkit-scrollbar-thumb {
 
   .iiit img {
     margin-top: 20px;
-    width: 250px;
   }
 
   .iiit .iiit-disc .point {
