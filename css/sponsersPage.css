@@ -109,3 +109,21 @@ body::-webkit-scrollbar-thumb {
     margin: 10px;
     padding: 0px;
 }
+
+
+@media(max-width: 500px) {
+    .inst-1 {
+        margin: 50px;
+        padding: 0px;
+    }
+
+    .inst-1 .spon{
+        padding: 0px 40px;
+    }
+}
+
+@media(max-width: 424px) {
+    .inst-1 .spon {
+        padding: 0px 12px;
+    }
+}
