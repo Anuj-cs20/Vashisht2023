@@ -1,242 +1,243 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-    --bg-color: #1b273d;
-    --primary-text: #ff007a;
-    --secondary-text: #fff;
+  --bg-color: #1b273d;
+  --primary-text: #ff007a;
+  --secondary-text: #fff;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 html,
 body {
-    background-color: #1b273d;
+  background-color: #1b273d;
 }
 
 html {
-    --scrollbarBG: #00000000;
-    --thumbBG: #FF007A;
+  --scrollbarBG: #00000000;
+  --thumbBG: #ff007a;
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 body {
-    scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
 body::-webkit-scrollbar-track {
-    background: var(--scrollbarBG);
+  background: var(--scrollbarBG);
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--thumbBG);
-    border-radius: 6px;
-    border: 2px solid var(--scrollbarBG);
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 2px solid var(--scrollbarBG);
 }
 
 .vashist_about_intro {
-    text-align: center;
+  text-align: center;
 }
 
 .vashist_about_intro_main {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .vashist_about_intro_main img {
-    width: 350px;
-    height: 350px;
+  width: 350px;
+  height: 350px;
 }
 
 .vashist_about_intro_heading {
-    padding-top: 2rem;
-    color: var(--primary-text);
-    font-size: 2.5rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  padding-top: 2rem;
+  color: var(--primary-text);
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .vashist_about_intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .vashist_about_intro_main h2 {
-    font-weight: 700;
-    text-align: center;
-    font-size: 80px;
-    text-transform: uppercase;
-    background: linear-gradient(90deg, #593771, var(--primary-text), #30ff00);
-    letter-spacing: 5px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: shine 4s linear infinite;
-    position: relative;
+  font-weight: 700;
+  text-align: center;
+  font-size: 80px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #593771, var(--primary-text), #30ff00);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 4s linear infinite;
+  position: relative;
 }
 
 @keyframes shine {
-    0% {
-        background-position-x: -500%;
-    }
+  0% {
+    background-position-x: -500%;
+  }
 
-    100% {
-        background-position-x: 500%;
-    }
+  100% {
+    background-position-x: 500%;
+  }
 }
 
 .vashist_about_intro_description {
-    font-size: 1.5rem;
-    margin: 4rem 0 0;
-    padding: 0rem 8rem;
+  font-size: 1.5rem;
+  margin: 4rem 0 0;
+  padding: 0rem 8rem;
 }
 
 .vashist_about_intro_description span {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .vashist_about_intro_description span:nth-of-type(2) {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .vashist_about_intro_description span:nth-of-type(3) {
-    animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .vashist_about_intro_description span:nth-of-type(4) {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .vashist_about_intro_description span:nth-of-type(5) {
-    animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 .vashist_about_intro_description span:nth-of-type(6) {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .description_element span {
-    color: var(--secondary-text);
-    opacity: 0;
-    transform: translate(-150px, 0) scale(0.3);
-    animation: leftRight 0.5s forwards;
+  color: var(--secondary-text);
+  opacity: 0;
+  transform: translate(-150px, 0) scale(0.3);
+  animation: leftRight 0.5s forwards;
 }
 
 @keyframes leftRight {
-    40% {
-        transform: translate(50px, 0) scale(0.7);
-        opacity: 1;
-        color: var(--primary-text);
-    }
+  40% {
+    transform: translate(50px, 0) scale(0.7);
+    opacity: 1;
+    color: var(--primary-text);
+  }
 
-    60% {
-        color: var(--bg-color);
-    }
+  60% {
+    color: var(--bg-color);
+  }
 
-    80% {
-        transform: translate(0) scale(2);
-        opacity: 0;
-    }
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
 
-    100% {
-        transform: translate(0) scale(1);
-        opacity: 1;
-    }
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
 }
 
 .vashist_about_iiitdm {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .vashist_about_iiitdm h2 {
-    text-align: left;
-    color: var(--secondary-text);
-    padding-left: 8rem;
-    padding-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: 500;
+  text-align: left;
+  color: var(--secondary-text);
+  padding-left: 8rem;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 .vashist_about_iiitdm span {
-    color: var(--primary-text);
+  color: var(--primary-text);
 }
 
 .vashist_about_iiitdm_flex {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .m {
-    margin: 50px 20px 20px 20px;
+  margin: 50px 20px 20px 20px;
 }
 
 .iiit {
-    display: flex;
-    color: #fff;
-    padding: 20px 100px;
+  display: flex;
+  color: #fff;
+  padding: 20px 100px;
 }
 
 .iiit img {
-    width: 500px;
+  width: 500px;
+  height: 400px;
+  margin-top: 80px;
 }
 
 .iiit .iiit-disc .point {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 30px 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 30px 50px;
 }
 
 .iiit .num {
-    display: inline-block;
-    margin: 20px;
-    width: 40px;
-    height: 40px;
-    padding: 0px 15px;
-    padding-top: 5px;
-    font-size: larger;
-    border: 2px solid var(--primary-text);
-    border-radius: 100%;
+  display: inline-block;
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 0px 15px;
+  padding-top: 5px;
+  font-size: larger;
+  border: 2px solid var(--primary-text);
+  border-radius: 100%;
 }
 
+@media (max-width: 1024px) {
+  .vashist_about_intro_description {
+    font-size: 1rem;
+    margin: 2rem 0 0;
+    padding: 0rem;
+  }
 
-@media(max-width: 992px) {
-    .vashist_about_intro_description {
-        font-size: 1rem;
-        margin: 2rem 0 0;
-        padding: 0rem;
-    }
+  .iiit {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+  }
 
-    .iiit {
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 20px 50px;
-    }
+  .iiit img {
+    margin-top: 20px;
+    width: 250px;
+  }
 
-    .iiit img {
-        margin-top: 20px;
-        width: 350px;
-    }
+  .iiit .iiit-disc .point {
+    padding: 10px 0px;
+  }
 
-    .iiit .iiit-disc .point {
-        padding: 10px 0px;
-    }
-
-    .vashist_about_intro_main h2 {
-        font-size: 60px;
-    }
+  .vashist_about_intro_main h2 {
+    font-size: 60px;
+  }
 }
