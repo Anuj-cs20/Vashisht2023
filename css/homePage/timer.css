@@ -41,3 +41,11 @@
 .syotimer__body{
     padding: 0px 50px;
 }
+
+@media(max-width: 375px) {
+    .syotimer-cell {
+        height: 90px;
+        width: 90px;
+        padding-top: 10px;
+    }
+}
