@@ -231,14 +231,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media(max-width: 768px) {
-    .vashist_about_intro_description p{
+    .vashist_about_intro_description span{
         margin: 0;
         display: inline;
     }
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .vashist_about_intro_description {
     font-size: 1rem;
     margin: 2rem 0 0;
