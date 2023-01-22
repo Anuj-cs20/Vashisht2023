@@ -1,129 +1,135 @@
 html,
 body {
-    background-color: #1b273d;
+  background-color: #1b273d;
 }
 
 html {
-    --scrollbarBG: #00000000;
-    --thumbBG: #FF007A;
+  --scrollbarBG: #00000000;
+  --thumbBG: #ff007a;
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 body {
-    scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
 body::-webkit-scrollbar-track {
-    background: var(--scrollbarBG);
+  background: var(--scrollbarBG);
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--thumbBG);
-    border-radius: 6px;
-    border: 2px solid var(--scrollbarBG);
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 2px solid var(--scrollbarBG);
 }
 
 .m {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .bp {
-    border: 2px solid #FF007A;
+  border: 2px solid #ff007a;
 }
 
 .bw {
-    border: 2px solid #FFf;
+  border: 2px solid #fff;
 }
 
 .about-spon {
-    display: flex;
-    color: #FFf;
-    margin: 30px 100px;
-    border-radius: 200px;
-    padding: 10px 50px;
-    background-color: rgba(255, 255, 255, 0.139);
+  display: flex;
+  color: #fff;
+  margin: 30px 100px;
+  border-radius: 200px;
+  padding: 10px 50px;
+  background-color: rgba(255, 255, 255, 0.139);
 }
 
 .about-spon .num {
-    display: inline-block;
-    margin: auto 15px;
-    width: 40px;
-    height: 40px;
-    padding: 0px 15px;
-    padding-top: 5px;
-    font-size: larger;
-    border: 2px solid #FF007A;
-    border-radius: 100%;
+  display: inline-block;
+  margin: auto 15px;
+  width: 40px;
+  height: 40px;
+  padding: 0px 15px;
+  padding-top: 5px;
+  font-size: larger;
+  border: 2px solid #ff007a;
+  border-radius: 100%;
 }
 
 .about-spon:hover {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 .spon-btns {
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
 }
 
 .spon-btn {
-    color: white;
-    background-color: #FF007A;
-    border: 1px solid #FF007A;
-    padding: 10px 20px;
-    border-radius: 200px;
-    margin: 20px;
+  color: white;
+  background-color: #ff007a;
+  border: 1px solid #ff007a;
+  padding: 10px 20px;
+  border-radius: 200px;
+  margin: 20px;
+}
+
+.spon-btn a {
+  color: white;
+}
+.spon-btn a:hover {
+  color: #000;
 }
 
 .spon-btn:hover {
-    color: black;
-    background-color: #FFF;
-    transform: scale(1.1);
-    transition: all ease .5s;
+  color: black;
+  background-color: #fff;
+  transform: scale(1.1);
+  transition: all ease 0.5s;
 }
 
-@media(max-width: 1023px) {
-    .about-spon {
-        flex-wrap: wrap;
-        margin: 30px 40px;
-        text-align: center;
-        align-content: center;
-        justify-content: space-around;
-    }
+@media (max-width: 1023px) {
+  .about-spon {
+    flex-wrap: wrap;
+    margin: 30px 40px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+  }
 
-    .spon-btns {
-        flex-wrap: wrap;
-    }
+  .spon-btns {
+    flex-wrap: wrap;
+  }
 }
 
 .about-spon div {
-    padding: 15px 0px;
+  padding: 15px 0px;
 }
 
-.inst-1{
-    margin: 10px;
+.inst-1 {
+  margin: 10px;
+  padding: 0px;
+}
+
+@media (max-width: 500px) {
+  .inst-1 {
+    margin: 50px;
     padding: 0px;
+  }
+
+  .inst-1 .spon {
+    padding: 0px 40px;
+  }
 }
 
-
-@media(max-width: 500px) {
-    .inst-1 {
-        margin: 50px;
-        padding: 0px;
-    }
-
-    .inst-1 .spon{
-        padding: 0px 40px;
-    }
-}
-
-@media(max-width: 424px) {
-    .inst-1 .spon {
-        padding: 0px 12px;
-    }
+@media (max-width: 424px) {
+  .inst-1 .spon {
+    padding: 0px 12px;
+  }
 }
