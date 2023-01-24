@@ -1,0 +1,23 @@
+.event_images {
+  padding: 0rem 1rem 0rem;
+  margin-top: 8rem;
+}
+
+.event_images img {
+  width: 75%;
+  height: 200px;
+}
+
+.event_images_left,
+.event_images_right {
+  margin-bottom: 1rem;
+}
+
+.event_images_left {
+  text-align: left;
+  /* background-image: url(/images/schedule/10feb.png); */
+}
+
+.event_images_right {
+  text-align: right;
+}
