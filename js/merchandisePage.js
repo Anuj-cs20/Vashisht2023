@@ -1,39 +1,66 @@
 let merchs = [
-  (tshirt = {
-    name: "T - Shirt",
-    slider_des: "lorem, ipsum dolor.",
+  (hoodie = {
+    name: "Hoodie",
+    slider_des:
+      "Stay warm and stylish in our cozy hoodie, perfect for any occasion!",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Consequat mattis tincidunt turpis integer dolor tempor et hac ornare. Proin nisl ut nunc mollis mauris odio eget quam justo. Leo telluonsequat mattis tincidunt turpis integer dolor tempor et hac ornare. Pronsequat mattis tincidunt turpis integer dolor tempor et hac ornare. Pr",
+      "Our hoodie is made of high-quality soft cotton, making it comfortable to wear all day long. The unique design of what IIITDM Kancheepuram gives it a stylish look, perfect for casual wear, sports or outdoor activities. It's from a well-trusted person, so you can be sure of the quality. It comes in various sizes to fit you perfectly. You can check for the sizes( click on buy now). The hoodies will be available only till 5th Feb,2022.",
     img_loc: `url(../images/merchandisePage/merch_1/merch1_1.jpg)`,
     img2: `url(../images/merchandisePage/merch_1/merch1_2.jpg)`,
     img3: `url(../images/merchandisePage/merch_1/merch1_3.jpg)`,
     img4: `url(../images/merchandisePage/merch_1/merch1_4.jpg)`,
   }),
-  (bottle = {
-    name: "Bottle",
-    slider_des: "lasfags, sfsa sadfsag.",
+  (Surge = {
+    name: "Surge T-shirt",
+    slider_des:
+      "Express your unique style with one of our exclusive t-shirt designs, now available for purchase online.",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Consequat mattis tincidunt turpis integer dolor tempor et hac ornare. Proin nisl ut nunc mollis mauris odio eget quam justo. Leo telluonsequat mattis tincidunt turpis integer dolor tempor et hac ornare. Pronsequat mattis tincidunt turpis integer dolor tempor et hac ornare. Pr",
+      "Our latest t-shirt design is made from 100% cotton, providing a comfortable fit and breathability. The design features a unique  print, created by IIITDM student, adding a touch of individuality to your wardrobe. The print is high-quality and long-lasting. The t-shirt is available in multiple sizes to fit you perfectly. It's a must-have for anyone looking to add a trendy and unique piece to their collection. You can check for the sizes( click on buy now). The t-shirt will be available only till 5th Feb,2022.It is also available in navy-blue colour. ",
     img_loc: `url(../images/merchandisePage/merch_2/merch2_1.jpg)`,
     img2: `url(../images/merchandisePage/merch_2/merch2_2.jpg)`,
     img3: `url(../images/merchandisePage/merch_2/merch2_3.jpg)`,
     img4: `url(../images/merchandisePage/merch_2/merch2_4.jpg)`,
   }),
-  (book = {
-    name: "Card",
-    slider_des: "lasdfas, iasdf asdfr.",
+  (brick = {
+    name: "Brick T-shirt",
+    slider_des:
+      "Express your unique style with one of our exclusive t-shirt designs, now available for purchase online.",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Consequat mattis tincidunt turpis integer dolor tempor et hac ornare. Proin nisl ut nunc mollis mauris odio eget quam justo. Leo telluonsequat mattis tincidunt turpis integer dolor tempor et hac ornare. Pronsequat mattis tincidunt turpis integer dolor tempor et hac ornare. Pr",
+      "Check out this latest t-shirt that is perfect for those who want to make a fashion statement. Made with a blend of soft and breathable cotton, the t-shirt is comfortable to wear and suitable for all seasons. The design features an intricate design, that's sure to stand out. The print is high-quality and long-lasting. The t-shirt is available in various sizes and has a regular fit. It's a great addition to any wardrobe, perfect for both casual and dressier occasions.You can check for the sizes( click on buy now). The t-shirt will be available only till 5th Feb,2022.It is also available in navy-blue colour. ",
     img_loc: `url(../images/merchandisePage/merch_3/merch3_1.jpg)`,
     img2: `url(../images/merchandisePage/merch_3/merch3_2.jpg)`,
     img3: `url(../images/merchandisePage/merch_3/merch3_3.jpg)`,
     img4: `url(../images/merchandisePage/merch_3/merch3_4.jpg)`,
+  }),
+  (Surge = {
+    name: "MusicXCoffee T-shirt",
+    slider_des:
+      "Express your unique style with one of our exclusive t-shirt designs, now available for purchase online.",
+    description:
+      "Get ready to turn heads and make a fashion statement with our latest t-shirt design! Made from the softest, most comfortable fabric you'll ever wear, this shirt is perfect for everyday wear. The design features a one-of-a-kind, that is sure to make you stand out from the crowd. The print is made with high-quality, making it long-lasting wear. The t-shirt is available in multiple sizes and has a relaxed fit, making it perfect for all body types. Don't miss out on this must-have addition to your wardrobe.You can check for the sizes( click on buy now). The t-shirt will be available only till 5th Feb,2022.It is also available in navy-blue colour.",
+    img_loc: `url(../images/merchandisePage/merch_4/merch4_1.jpg)`,
+    img2: `url(../images/merchandisePage/merch_4/merch4_2.jpg)`,
+    img3: `url(../images/merchandisePage/merch_4/merch4_3.jpg)`,
+    img4: `url(../images/merchandisePage/merch_4/merch4_4.jpg)`,
+  }),
+  (book = {
+    name: "No Flux Given T-shirt",
+    slider_des:
+      "Express your unique style with one of our exclusive t-shirt designs, now available for purchase online.",
+    description:
+      "Check out this latest t-shirt that is perfect for those who want to make a fashion statement. Made with a blend of soft and breathable cotton, the t-shirt is comfortable to wear and suitable for all seasons. The design features an intricate design, that's sure to stand out. The print is high-quality and long-lasting. The t-shirt is available in various sizes and has a regular fit. It's a great addition to any wardrobe, perfect for both casual and dressier occasions.You can check for the sizes( click on buy now). The t-shirt will be available only till 5th Feb,2022.It is also available in navy-blue colour. ",
+    img_loc: `url(../images/merchandisePage/merch_5/merch5_1.jpg)`,
+    img2: `url(../images/merchandisePage/merch_5/merch5_2.jpg)`,
+    img3: `url(../images/merchandisePage/merch_5/merch5_3.jpg)`,
+    img4: `url(../images/merchandisePage/merch_5/merch5_4.jpg)`,
   }),
 ];
 
 const btn1 = document.querySelector(".merch_btn1");
 const btn2 = document.querySelector(".merch_btn2");
 const btn3 = document.querySelector(".merch_btn3");
+const btn4 = document.querySelector(".merch_btn4");
+const btn5 = document.querySelector(".merch_btn5");
 const slider_heading = document.querySelector(".merch_slider_text_heading");
 const slider_description = document.querySelector(
   ".merch_slider_text_description"
@@ -49,6 +76,12 @@ btn2.addEventListener("click", function () {
 btn3.addEventListener("click", function () {
   displaySlider(merchs[2], btn3);
 });
+btn4.addEventListener("click", function () {
+  displaySlider(merchs[3], btn4);
+});
+btn5.addEventListener("click", function () {
+  displaySlider(merchs[4], btn5);
+});
 
 let a = 0;
 function displaySlider(merch, btn) {
@@ -63,12 +96,16 @@ function displaySlider(merch, btn) {
     btn.classList.add("highlight");
     btn2.classList.remove("highlight");
     btn3.classList.remove("highlight");
+    btn4.classList.remove("highlight");
+    btn5.classList.remove("highlight");
     a = 0;
   }
   if (btn == btn2) {
     btn.classList.add("highlight");
     btn1.classList.remove("highlight");
     btn3.classList.remove("highlight");
+    btn4.classList.remove("highlight");
+    btn5.classList.remove("highlight");
     btn1.classList.remove("b1");
     a = 1;
   }
@@ -76,9 +113,30 @@ function displaySlider(merch, btn) {
     btn.classList.add("highlight");
     btn2.classList.remove("highlight");
     btn1.classList.remove("highlight");
+    btn4.classList.remove("highlight");
+    btn5.classList.remove("highlight");
     btn1.classList.remove("b1");
     a = 2;
   }
+  if (btn == btn4) {
+    btn.classList.add("highlight");
+    btn2.classList.remove("highlight");
+    btn1.classList.remove("highlight");
+    btn3.classList.remove("highlight");
+    btn5.classList.remove("highlight");
+    btn1.classList.remove("b1");
+    a = 3;
+  }
+  if (btn == btn5) {
+    btn.classList.add("highlight");
+    btn2.classList.remove("highlight");
+    btn1.classList.remove("highlight");
+    btn4.classList.remove("highlight");
+    btn3.classList.remove("highlight");
+    btn1.classList.remove("b1");
+    a = 4;
+  }
+
   displayMerchDetails(merch);
 }
 
